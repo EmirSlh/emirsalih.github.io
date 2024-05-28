@@ -52,7 +52,7 @@ nav a:visited{
 #anasayfa {
     
     height: 600px;
-    background-image: url("images/matrix.jpg");
+    background-image: url("../images/matrix.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -162,7 +162,7 @@ nav a:visited{
 
 }
 #projeler {
-    background-image: url("images/contact.jpg");
+    background-image: url("../images/contact.jpg");
     padding: 50px 0;
     text-align: center;
     height: 900px;
