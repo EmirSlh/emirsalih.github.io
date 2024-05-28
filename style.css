@@ -77,12 +77,12 @@ nav a:visited{
     color: aliceblue;
     font-size: 20px;
     
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Geçiş efekti ekle */
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
-#anasayfa:hover #icerik { /* Fare üzerine gelince */
-    opacity: 1; /* Görünür yap */
-    transform: translateY(0); /* Orijinal konumuna getir */
+#anasayfa:hover #icerik {
+    opacity: 1; 
+    transform: translateY(0); 
   }
 
 #hakkımızda{
@@ -311,12 +311,12 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 160px; /* Dikey resimler için maksimum genişlik */
+    max-width: 160px; 
     width: 500px;
 }
 
 .calisma-item.yatay {
-    max-width: 350px; /* Yatay resimler için maksimum genişlik */
+    max-width: 350px; 
 }
 
 .calisma-item img {
@@ -390,3 +390,7 @@ h3 {
 html {
     scroll-behavior: smooth; 
  }
+
+ @media only screen and (max-width: 600px) {
+    
+}
