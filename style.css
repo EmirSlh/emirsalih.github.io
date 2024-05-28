@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   
+        font-family: "Nunito", sans-serif;
+        margin: 0;
+}
+
+#menu{
+    height: 80px;
+    
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: darkblue;
+    float: left;   
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: darkblue;
+}
+
+nav a:hover{
+    border-bottom: 2px solid;
+    color: darkblue;
+}
+
+nav a:visited{
+    
+        text-decoration: none;
+        margin-right: 25px;
+        color: darkblue;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#anasayfa {
+    
+    height: 600px;
+    background-image: url("../images/matrix.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+
+#black {
+   height: 600px;
+   background-color: black;
+   opacity: 0.3;
+}
+
+
+
+#icerik{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    font-size: 20px;
+    
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Geçiş efekti ekle */
+}
+
+#anasayfa:hover #icerik { /* Fare üzerine gelince */
+    opacity: 1; /* Görünür yap */
+    transform: translateY(0); /* Orijinal konumuna getir */
+  }
+
+#hakkımızda{
+    background-color:azure;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#hakkimdah3{
+    font-size: 32px;
+    color: darkblue;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid darkslategrey;
+    font-size: 30px;
+    width: 400px;
+    color:darkslategrey ;
+}
+
+#h5sol{
+    line-height: 10;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+
+}
+
+
+#sag{
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 500;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100{
+    margin-top: 100px;
+
+}
+
+#pson{
+    color: #999999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 300;
+
+}
+#projeler {
+    background-image: url("../images/contact.jpg");
+    padding: 50px 0;
+    text-align: center;
+    height: 900px;
+    background-size: cover;
+    padding: 50px;
+    
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h3 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 320px;
+    height: 350px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+    margin: 0 10px 20px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.yataycard {
+    width: 1009px;
+    height: 250px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-table;
+    margin: 0 20px 20px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.yataycard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.baslikcard {
+    font-size: 18px;
+    color: #003666;
+    margin: 15px 10px 10px;
+}
+
+.cardp {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 10px 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.yataycard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+#kulup-calismalari {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#kulup-calismalari .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kulup-logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.kulup-icerik {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.kulup-icerik h3 {
+    font-size: 28px;
+    color: #003666;
+    margin-bottom: 20px;
+}
+
+.kulup-icerik p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+#sosyal-calismalar {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#sosyal-calismalar h3 {
+    font-size: 32px;
+    color: #003666;
+    margin-bottom: 40px;
+}
+
+.calismalar-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.calisma-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 160px; /* Dikey resimler için maksimum genişlik */
+    width: 500px;
+}
+
+.calisma-item.yatay {
+    max-width: 350px; /* Yatay resimler için maksimum genişlik */
+}
+
+.calisma-item img {
+    width: 100%;
+    height: auto;
+}
+
+.calisma-item .calisma-text {
+    padding: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.calisma-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+#sosyal-medya {
+    background-color: #003666;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#sosyalh3 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-item {
+    margin: 0 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-item:hover {
+    transform: translateY(-10px);
+}
+
+.profile-item .icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-item .text {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.container > *, 
+#anasayfa > div { 
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.visible { 
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html {
+    scroll-behavior: smooth; 
+ }
