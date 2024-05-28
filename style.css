@@ -391,6 +391,56 @@ html {
     scroll-behavior: smooth; 
  }
 
+
  @media only screen and (max-width: 600px) {
-    
+    #menu {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #logo {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+
+    nav a {
+        margin: 0 15px 15px 0;
+    }
+
+    #anasayfa {
+        height: auto;
+    }
+
+    #icerik {
+        width: calc(100% - 40px);
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    #hakkımızda,
+    #projeler,
+    #kulup-calismalari,
+    #sosyal-calismalar,
+    #sosyal-medya {
+        padding: 30px 20px;
+    }
+
+    .calisma-item {
+        width: calc(100% - 20px);
+    }
+
+    .profile-container {
+        flex-direction: column;
+    }
+
+    .profile-item {
+        margin: 10px 0;
+    }
 }
